@@ -1,6 +1,6 @@
 import React, {useState, useRef } from 'react';
 import {Plane, useTexture} from '@react-three/drei';
-export function Pared_Imagen() {
+export function Screenimg() {
   const paredRef = useRef(null)
 
   const images = ["1.jpg", "2.jpg", "3.jpg"];
@@ -29,4 +29,4 @@ export function Pared_Imagen() {
     );
    
 }
-export default Pared_Imagen;
+export default Screenimg;
